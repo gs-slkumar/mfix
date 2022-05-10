@@ -166,6 +166,7 @@ public class CommentDao extends AbstractMFlixDao {
      *
      * @return List {@link Critic} objects.
      */
+
     public List<Critic> mostActiveCommenters() {
         List<Critic> mostActive = new ArrayList<>();
         // // TODO> Ticket: User Report - execute a command that returns the
